@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simulación de Ciudad</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <nav>
+            <h1>🗺️ Simulación de ciudad 🗺️</h1>
+            <button onclick="botonEjecutarRutadiaria()">Iniciar ruta diaria</button>
+            <button onclick="botonEjecutarRutatarde()">Iniciar ruta Tarde</button>
+            <button onclick="botonEjecutarMover()">Mover familia</button>
+            <button onclick="botonEjecutarIncendio()">Iniciar incendio</button>
+            <button onclick="botonEjecutarRobo()">Iniciar robo</button>
+            <button onclick="botonEjecutarMedico()">Iniciar emergencia medica</button>
+            <button onclick="botonEjecutarluz()">Repartir luz</button>
+            <button onclick="botonEjecutargas()">Repartir gas</button>
+            <button onclick="botonEjecutaragua()">Repartir Agua</button>
+            <button onclick="botonEjecutarsuper()">Supermercado</button>
+            <button onclick="botonEjecutarsuper2()">Supermercado 2</button>
+        </nav>
+        <table id="grafo"></table>
+        <div class="distancia">
+            <table id="distancia"></table>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
